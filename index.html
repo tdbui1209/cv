@@ -3,53 +3,80 @@
   <head>
     <meta charset="utf-8">
     <title>This's my personal website</title>
+
+    <!-- CSS stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/61e5cc442d.js" crossorigin="anonymous"></script>
+
   </head>
   <body>
-    <table>
-      <tr>
-        <td><img src="circle.png"></td>
-        <td>
-          <h1>Bùi Tùng Dương</h1>
-          <p><strong><em>Fulltime Student at Vietnam Maritime University.</em></strong></p>
-          <p>Eat, Sleep, Code</p>
-        </td>
-      </tr>
-    </table>
-    <hr>
-    <h3>Education</h3>
-    <ul>
-      <li><strong>Bachelor of Science in Information Technology</strong></li>
-      <p><a href="http://vimaru.edu.vn/">Vietnam Maritime University</a>, Haiphong, Vietnam</p>
-      <p>10/2020 - Present</p>
-      <br>
-      <li><strong>Bachelor of Engineer in Manufacturing Engineering</strong></li>
-      <p><a href="http://mta.edu.vn">Le Quy Don Technical University</a>, Hanoi, Vietnam</p>
-      <p>09/2016 - 12/2019</p>
-    </ul>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing=10>
-      <tr>
-        <td>Python</td>
-        <td>⭐⭐⭐⭐</td>
-        <td>R</td>
-        <td>⭐</td>
-      </tr>
-      <tr>
-        <td>C</td>
-        <td>⭐⭐</td>
-        <td>C++</td>
-        <td>⭐⭐</td>
-      </tr>
-    </table>
-    <hr>
-    <h3>Hobies</h3>
-    <ol>
-      <li>Code</li>
-      <li>Also Code, but in line 2</li>
-      <li>Still Code =))</li>
-    </ol>
-    <hr>
-    <h3><a href="contract.html">CONTRACT ME</a></h3>
+    <div class="d-flex flex-column flex-shrink-0 p-3 bg-light side-bar">
+      <div class="profile-pic">
+        <img src="ca791a86d99c2dc2748d.jpg" alt="" class="pic">
+      </div>
+      <div class="profile-usertitle">
+				<div class="profile-name">
+					Bùi Tùng Dương
+				</div>
+			  <div class="profile-title">
+				  Fulltime Student
+				</div>
+        <div class="profile-bio">
+          "Em là Dương, sinh viên năm nhất trường Đại học Hàng hải Việt Nam, đang theo học ngành Công nghệ thông tin.
+          Em chủ yếu sử dụng Python để viết các chương trình, các project nhỏ, trong đó phần lớn là dùng Python để
+          xử lý, thao tác với dữ liệu, mô hình hoá dữ liệu với các thư viện như Pandas, numpy , matplotlib,.. và build
+          các model machine learning với sklearn."
+        </div>
+        <div class="information">
+          <h3 class="contract-info-text">Contract Information</h3>
+          <hr>
+          <p><i class="fas fa-envelope"></i> Email: tdbui1209@gmail.com</p>
+          <p><i class="fas fa-phone-square-alt"></i> Phone: +84 3 45 45 0185</p>
+          <p><i class="fab fa-facebook-square"></i> <a href="https://www.facebook.com/tungduong.bui.56884/">Facebook</a></p>
+        </div>
+			</div>
+    </div>
+
+    <div class="main-container">
+      <h3>Education</h3>
+      <ul>
+        <li><strong>Bachelor of Science in Information Technology</strong></li>
+        <p><a href="http://vimaru.edu.vn/">Vietnam Maritime University</a>, Haiphong, Vietnam</p>
+        <p>10/2020 - Present</p>
+        <br>
+      </ul>
+      <hr>
+      <h3>Skills</h3>
+      <ul class=leaders>
+        <li><span>Python</span>
+         <span>Limited Working Proficiency/ Upper Intermediate</span>
+        <li><span>PostgreSQL</span>
+         <span>Elementary Proficiency/ Elementary</span>
+        <li><span>English</span>
+         <span>Limited Working Proficiency/ Upper Intermediate</span>
+      </ul>
+      <hr>
+      <h3>Accomplishments</h3>
+      <ul>
+        <li>TOEIC® test scores</li>
+        <i>710/990 - Limited Working Proficiency/ Upper Intermediate</i>
+        <br>
+        <li>Learn to Program: The Fundamentals</li>
+        <i>University of Toronto - Coursera</i>
+      </ul>
+      <hr>
+      <h3>Projects at </h3>
+      <ul>
+        <li><i class="fab fa-github"></i> <a href="https://github.com/tdbui1209">Github</a></li>
+        <li><i class="fab fa-kaggle"></i> <a href="https://www.kaggle.com/tdbui1209">Kaggle</a></li>
+      </ul>
+    </div>
   </body>
 </html>

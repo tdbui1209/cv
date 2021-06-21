@@ -1,0 +1,84 @@
+.profile-pic {
+  border-radius: 50%;
+}
+
+.side-bar {
+  z-index: 1;
+  position: fixed;
+  width: 350px;
+}
+
+.main-container {
+  float: right;
+  width: 65%;
+  padding-top: 3%;
+  padding-right: 15%;
+}
+
+.pic {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.profile-name {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 20pt;
+  padding-top: 10pt;
+}
+
+.information {
+  padding-top: 50px;
+}
+
+.contract-info-text {
+  text-align: center;
+}
+
+.profile-title {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.profile-bio {
+  font-style: italic;
+  padding-top: 10pt;
+}
+
+ul.leaders {
+    max-width: 40em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none
+}
+
+ul.leaders li:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+     ". . . . . . . . . . . . . . . . . . . . "
+     ". . . . . . . . . . . . . . . . . . . . "
+     ". . . . . . . . . . . . . . . . . . . . "
+     ". . . . . . . . . . . . . . . . . . . . "
+}
+
+ul.leaders span:first-child {
+    padding-right: 0.33em;
+    background: white
+}
+ul.leaders span + span {
+    float: right;
+    padding-left: 0.33em;
+    background: white;
+    font-weight: bold;
+    font-style: italic
+}
+
+.span {
+  font-weight: bold;
+}
